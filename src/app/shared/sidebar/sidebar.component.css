@@ -1,0 +1,9 @@
+.active{
+  background: #f1f2f7;
+  color: black;
+  border-right: 3px solid #2a3542;
+}
+
+.setting a:before {
+  content: "\f013";
+}

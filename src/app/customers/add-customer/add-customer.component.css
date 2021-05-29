@@ -1,0 +1,14 @@
+.validation-msg{
+  color: #f44336;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: white !important;
+}
+
+.mat-form-field{
+  padding-top: 24px;
+}
+

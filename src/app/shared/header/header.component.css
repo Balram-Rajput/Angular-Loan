@@ -1,0 +1,49 @@
+
+.dropdown-menu-dark {
+  color: #dee2e6;
+  background-color: white;
+  border-color: rgba(0,0,0,.15);
+}
+
+.dropdown-menu-dark .dropdown-item {
+  color: #2a3542;
+}
+
+.dropdown-menu-dark .dropdown-item:hover {
+  color: black;
+  background-color: rgba(255,255,255,.15);
+}
+
+.dropdown .a::before{
+  content: "" !important;
+}
+
+.dropdown .dropdown-toggle::before{
+  content: "\f007" !important;
+}
+
+ .dropdown-menu .dropdown-item a::after{
+  content: " " !important;
+}  
+
+.users a:before {
+  content: "";
+}
+
+.utilities a:before {
+  content: "";
+  font-family: FontAwesome;
+  padding-right: 0.6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+

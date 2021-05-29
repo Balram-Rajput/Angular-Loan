@@ -1,0 +1,31 @@
+
+<div class="row pt-5">
+  <div class="col-md-6 mx-auto">
+    <div class="card rounded-0">
+      <div class="card-header">
+        <h2 class="mb-0" style="font-weight: 500;">
+          Forget Password</h2>
+      </div>
+      <div class="card-body">
+        <form  class="form" >
+          <div class="form-group">
+          <label for=""><span class="fa fa-user" style="font-size:medium;" ></span> Username
+          </label>
+            <input type="text" class="form-control rounded-0" required placeholder="Enter Username Or UserEmail" [(ngModel)]="username" name="username" 
+            autocomplete="off" >
+          </div>
+
+          <div style="float:left; font-size: 13px;" class="pt-3" >Go Back To
+            <a class="text-primary cursor fw-bold text-decoration-underline" [routerLink]="['','login']">LogIn</a>
+          </div>
+
+          <button  class="btn btn-dark btn-group float-end mt-3"
+          (click)="CheckUser(username)">Submit</button>
+
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

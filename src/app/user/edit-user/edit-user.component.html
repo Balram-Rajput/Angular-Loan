@@ -1,0 +1,33 @@
+  
+<div class="container">
+  <h2 class="p-3 m-3">
+    <i class="fa fa-user-circle" style="font-size: 38px;"></i>
+    Hello {{dummyEmail | titlecase}}
+  </h2>
+
+  <h4 class="mb-2 fw-bold">Edit Profile</h4>
+
+  <div class="card px-5">
+    <div class="col-lg-12">
+
+      <form #userForm="ngForm">
+        <div class="form-group"  >
+          <div class="row">
+            <div class="col-md-6">
+              <label>User Email</label>
+              <input type="text" class="form-control" [(ngModel)]="userEmail"  
+              placeholder="User Email" name="userEmail" required autocomplete="off" >
+            </div>
+            </div>
+
+            <button class="btn btn-success btn-group-lg m-2" [disabled]="!userForm.valid" (click)="UpdateUser(userForm)"  >Save</button>
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+  
+</div>

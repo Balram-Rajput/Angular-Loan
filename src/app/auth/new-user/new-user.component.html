@@ -1,0 +1,34 @@
+
+<div class="row pt-5">
+  <div class="col-md-6 mx-auto">
+    <div class="card rounded-0">
+      <div class="card-header">
+        <h2 class="mb-0">Register</h2>
+      </div>
+      <div class="card-body">
+        <form  class="form" [formGroup]="RegisterForm" >
+          <div class="form-group">
+            <label for="">Email</label>
+            <input type="text" class="form-control rounded-0" required placeholder="Enter Email" formControlName="email" >
+          </div>
+
+          <div class="form-group">
+            <label for="">Password</label>
+            <input type="password" class="form-control rounded-0" required placeholder="Enter Password" formControlName="password">
+          </div>
+
+          <div style="float:left; font-size: 13px;" class="pt-3" >Go Back 
+            <a class="text-primary cursor fw-bold text-decoration-underline" [routerLink]="['','login']">LogIn</a>
+            <br><br>
+            Or
+            <a class="text-primary cursor fw-bold text-decoration-underline" [routerLink]="['','forget-password']" >Forget Password</a>
+          </div>
+
+          <button type="button" class="btn btn-primary float-end mt-3"
+           (click)="RegisterUserForm(RegisterForm)">Register</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

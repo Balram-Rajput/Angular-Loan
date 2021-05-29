@@ -1,0 +1,61 @@
+
+<section class="container">
+  <div class="col-md-11 m-auto pt-3">
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Invoices</h5>
+      </div>
+      <div class="col-md-6" >
+        <button class="btn btn-success" style="float:right;" 
+        [routerLink]="'add'" >Add Invoices</button>
+      </div>
+    </div>
+  
+    <div class="row pt-4">
+      <table class="table table-shadow">
+        <thead>
+          <tr>
+            <th scope="col">S.No</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fa fa-trash-o" style="padding-left: 5px;" aria-hidden="true"></i>  
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <td>
+              <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+              <i class="fa fa-trash-o" style="padding-left: 5px;" aria-hidden="true"></i>  
+          </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+            <td>
+              <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+              <i class="fa fa-trash-o" style="padding-left: 5px;" aria-hidden="true"></i>  
+          </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+  </div>
+</section>
+

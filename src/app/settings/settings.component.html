@@ -1,0 +1,30 @@
+  <div class="container p-5">
+
+    <h2 class="mb-3" >Settings</h2>
+
+    <div class="col-12 setting">
+      <div class="row">
+
+        <div class="col-md-2">
+          <div class="card text-center cursor p-2" [routerLink]="['/user','edit-user']">
+            <h1>
+              <i class="fa fa-cogs" aria-hidden="true"></i>
+            </h1>
+            <h6>Edit User</h6>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="card text-center cursor p-2" [routerLink]="['/user','reset-password']" >
+            <h1>
+              <i class="fa fa-key" aria-hidden="true"></i>
+            </h1>
+            <h6>Reset Password</h6>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
